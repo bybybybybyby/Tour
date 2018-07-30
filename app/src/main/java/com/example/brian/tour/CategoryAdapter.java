@@ -21,8 +21,12 @@ public class CategoryAdapter extends FragmentPagerAdapter{
     public Fragment getItem(int position) {
         if (position == 0) {
             return new FoodFragment();
-        } else {
+        } else if (position == 1) {
             return new ThemeFragment();
+        } else if (position ==2) {
+            return new BeachFragment();
+        } else {
+            return new MuseumFragment();
         }
     }
 

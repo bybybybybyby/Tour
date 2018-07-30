@@ -28,12 +28,16 @@ public class FoodFragment extends Fragment {
 
         //Create a list of places
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Pink's Hot Dogs", "Legendary Hot Dogs", "www.pinkshollywood.com"));
-        places.add(new Place("In N Out", "Legendary Hot Dogs", "www.pinkshollywood.com"));
-        places.add(new Place("The Original Tommy's", "Legendary Hot Dogs", "www.pinkshollywood.com"));
-        places.add(new Place("Phillipe the Original", "The Original French Dipped Sandwich", "www.pinkshollywood.com"));
+        places.add(new Place(getString(R.string.pinks), getString(R.string.pinks_description),
+                getString(R.string.pinks_website), R.drawable.pinks));
+        places.add(new Place(getString(R.string.in_n_out), getString(R.string.in_n_out_description),
+                getString(R.string.in_n_out_website), R.drawable.innout));
+        places.add(new Place(getString(R.string.tommys), getString(R.string.tommys_description),
+                getString(R.string.tommys_website), R.drawable.tommys));
+        places.add(new Place(getString(R.string.phillipes), getString(R.string.phillipes_description),
+                getString(R.string.philippes_website), R.drawable.philippes));
 
-        final PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.colorAccent);
+        final PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.colorLight);
 
         final ListView listView = (ListView) rootView.findViewById(R.id.list);
 

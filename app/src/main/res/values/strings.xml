@@ -1,63 +1,80 @@
 <resources>
-    <string name="app_name">Tour</string>
+    <string name="app_name">Tour Guide - SoCal</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="in_n_out_description">In-N-Out Burger is an American regional chain of restaurants with locations in the American Southwest and Pacific coast.</string>
     <string name="in_n_out">In N Out</string>
+    <string name="in_n_out_website">www.in-n-out.com</string>
+
     <string name="pinks">Pink\'s Hot Dogs</string>
     <string name="pinks_description">Legendary Hot Dogs</string>
     <string name="pinks_website">www.pinkshollywood.com</string>
-    <string name="in_n_out_website">www.in-n-out.com</string>
+
     <string name="tommys">The Original Tommy\'s</string>
     <string name="tommys_description">World Famous hamburgers serving from the Shack since 1946</string>
     <string name="tommys_website">www.originaltommys.com</string>
+
     <string name="phillipes">Phillipe the Original</string>
     <string name="phillipes_description">The Original French Dipped Sandwich</string>
     <string name="philippes_website">www.philippes.com</string>
+
     <string name="laguna">Laguna Beach</string>
     <string name="laguna_desc">Seaside resort city located in southern Orange County</string>
     <string name="laguna_website">www.lagunabeachcity.net</string>
+
     <string name="santa_monica">Santa Monica Beach</string>
-    <string name="santa_monica_desc">In-N-Out Burger is an American regional</string>
-    <string name="santa_monica_website">www.pinkshollywood.com</string>
+    <string name="santa_monica_desc">Iconic beach, 3.5 miles long located along Pacific Coast Highway.</string>
+    <string name="santa_monica_website">www.santamonica.com</string>
+
     <string name="venice">Venice Beach</string>
-    <string name="venice_desc">Legendary Hot Dogs</string>
-    <string name="venice_website">www.pinkshollywood.com</string>
-    <string name="la_jolla_website">www.pinkshollywood.com</string>
-    <string name="la_jolla_desc">The Original French Dipped Sandwich</string>
+    <string name="venice_desc">People watch, shop, and be entertained on the Venice Beach Boardwalk.</string>
+    <string name="venice_website">www.venicebeach.com</string>
+
     <string name="la_jolla">La Jolla Beach</string>
+    <string name="la_jolla_website">www.lajollabeach.com</string>
+    <string name="la_jolla_desc">Prime sand beach favored by active beachgoers of all interests.</string>
+
     <string name="bowers">Bowers Museum</string>
-    <string name="bowers_desc">Seaside resort city located in southern Orange County</string>
-    <string name="bowers_website">www.lagunabeachcity.net</string>
-    <string name="lacma">LACMA</string>
-    <string name="lacma_desc">In-N-Out Burger is an American regional</string>
-    <string name="lacma_website">www.pinkshollywood.com</string>
+    <string name="bowers_desc">Art museum located in Santa Ana with a permanent collection of over 100,000 objects.</string>
+    <string name="bowers_website">www.bowers.org</string>
+
+    <string name="lacma">Los Angeles County Museum of Art</string>
+    <string name="lacma_desc">LACMA is the largest art museum in the western United States.</string>
+    <string name="lacma_website">www.lacma.org</string>
+
     <string name="broad">The Broad</string>
-    <string name="broad_desc">Legendary Hot Dogs</string>
-    <string name="broad_website">www.pinkshollywood.com</string>
-    <string name="getty_website">www.pinkshollywood.com</string>
-    <string name="getty_desc">The Original French Dipped Sandwich</string>
+    <string name="broad_desc">Contemporary art Musem in Downtown Los Angeles named for philanthropist Eli Broad.</string>
+    <string name="broad_website">www.thebroad.org</string>
+
+    <string name="getty_website">www.getty.edu/art</string>
+    <string name="getty_desc">Well known for its architecture, gardens, and views overlooking Los Angeles.</string>
     <string name="getty">Getty Center</string>
+
     <string name="norton">Norton Simon</string>
-    <string name="norton_desc">The Original French Dipped Sandwich</string>
-    <string name="norton_website">www.pinkshollywood.com</string>
+    <string name="norton_desc">Located in Pasadena.  Collections incclude European painting, sculptures, and tapestries.</string>
+    <string name="norton_website">www.nortonsimon.org</string>
+
     <string name="disneyland">Disneyland</string>
     <string name="disneyland_desc">Disneyland Park, originally Disneyland is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955.</string>
     <string name="disneyland_website">www.disneyland.com</string>
-    <string name="universal_website">www.pinkshollywood.com</string>
-    <string name="universal_desc">Legendary Hot Dogs</string>
-    <string name="universal">Universal Studios</string>
+
+    <string name="universal_website">themeparks.universalstudios.com</string>
+    <string name="universal_desc">Guests can look behind the scenes of motion pictures and television programs.</string>
+    <string name="universal">Universal Studios Theme Park</string>
+
     <string name="knotts">Knott\'s Berry Farm</string>
-    <string name="knotts_desc">Legendary Hot Dogs</string>
-    <string name="knotts_website">www.pinkshollywood.com</string>
-    <string name="magic">Magic Mountain</string>
-    <string name="magic_desc">The Original French Dipped Sandwich</string>
-    <string name="magic_website">www.pinkshollywood.com</string>
-    <string name="san_diego_website">www.pinkshollywood.com</string>
-    <string name="san_diego_desc">The Original French Dipped Sandwich</string>
+    <string name="knotts_desc">America\'s first theme park sits on the site of a former berry farm established by Walter Knott.</string>
+    <string name="knotts_website">www.knotts.com</string>
+
+    <string name="magic">Six Flags Magic Mountain</string>
+    <string name="magic_desc">With 19 roller coasters, Six Flags Magic Mountain holds the world record for most roller coasters in an amusement park.</string>
+    <string name="magic_website">www.sixflags.com/magicMountain</string>
+
+    <string name="san_diego_website">zoo.sandiegozoo.org</string>
+    <string name="san_diego_desc">Houses over 3700 animals of more than 650 species and subspecies.</string>
     <string name="san_diego">San Diego Zoo</string>
-    <string name="sea_world">Sea World</string>
-    <string name="sea_world_desc">The Original French Dipped Sandwich</string>
-    <string name="sea_world_website">www.pinkshollywood.com</string>
+
+    <string name="sea_world">Sea World San Diego</string>
+    <string name="sea_world_desc">The first SeaWorld park, opened on March 21, 1964. The park features shows such as Sea Lions Live, a comedic show with sea lions and otters, and Dolphin Days.</string>
+    <string name="sea_world_website">www.seaworldparks.com</string>
 
 </resources>

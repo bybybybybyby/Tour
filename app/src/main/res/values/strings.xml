@@ -77,4 +77,10 @@
     <string name="sea_world_desc">The first SeaWorld park, opened on March 21, 1964. The park features shows such as Sea Lions Live, a comedic show with sea lions and otters, and Dolphin Days.</string>
     <string name="sea_world_website">www.seaworldparks.com</string>
 
+    <string name="food">Food</string>
+    <string name="theme_parks">Theme Parks</string>
+    <string name="beaches">Beaches</string>
+    <string name="museums">Museums</string>
+
+
 </resources>

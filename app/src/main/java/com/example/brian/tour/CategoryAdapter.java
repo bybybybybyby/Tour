@@ -1,10 +1,12 @@
 package com.example.brian.tour;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.content.ContextCompat;
 
 import java.util.Locale;
 
@@ -40,13 +42,13 @@ public class CategoryAdapter extends FragmentPagerAdapter{
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return "Food";
+            return mContext.getString(R.string.food);
         } else if (position == 1) {
-            return "Theme Parks";
+            return mContext.getString(R.string.theme_parks);
         } else if (position == 2) {
-            return "Beaches";
+            return mContext.getString(R.string.beaches);
         } else {
-            return "Museums";
+            return mContext.getString(R.string.museums);
         }
     }
 }
